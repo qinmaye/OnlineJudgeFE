@@ -333,7 +333,7 @@
           difficulty: 'Low',
           visible: true,
           share_submission: false,
-          tags: [],
+          tags: ['程序设计'],
           languages: [],
           template: {},
           samples: [{input: '', output: ''}],
