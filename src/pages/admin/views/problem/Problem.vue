@@ -189,8 +189,8 @@
           <el-col :span="4">
             <el-form-item :label="$t('m.Type')">
               <el-radio-group v-model="problem.rule_type" :disabled="disableRuleType">
-                <el-radio label="ACM">ACM</el-radio>
                 <el-radio label="OI">OI</el-radio>
+                <el-radio label="ACM">ACM</el-radio>
               </el-radio-group>
             </el-form-item>
           </el-col>
