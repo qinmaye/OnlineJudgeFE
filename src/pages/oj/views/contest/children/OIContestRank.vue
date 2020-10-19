@@ -67,6 +67,7 @@
           {
             title: this.$i18n.t('m.User_User'),
             align: 'center',
+            sortable: true,
             render: (h, params) => {
               return h('a', {
                 style: {

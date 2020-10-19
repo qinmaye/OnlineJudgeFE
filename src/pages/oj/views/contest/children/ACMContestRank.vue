@@ -78,6 +78,7 @@
             align: 'center',
             fixed: 'left',
             width: 150,
+            sortable: true,
             render: (h, params) => {
               return h('a', {
                 style: {
