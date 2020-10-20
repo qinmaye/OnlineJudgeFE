@@ -16,11 +16,13 @@
         @row-dblclick="handleDblclick"
         style="width: 100%">
         <el-table-column
+          sortable
           width="100"
           prop="id"
           label="ID">
         </el-table-column>
         <el-table-column
+          sortable
           width="150"
           label="Display ID">
           <template slot-scope="{row}">
@@ -32,6 +34,7 @@
           </template>
         </el-table-column>
         <el-table-column
+          sortable
           prop="title"
           label="Title">
           <template slot-scope="{row}">
@@ -132,7 +135,7 @@
     },
     data () {
       return {
-        pageSize: 10,
+        pageSize: 25,
         total: 0,
         problemList: [],
         keyword: '',
