@@ -92,6 +92,7 @@
             title: '#',
             key: '_id',
             width: 80,
+            sortable: true,
             render: (h, params) => {
               return h('Button', {
                 props: {
